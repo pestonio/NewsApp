@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/parent_list_item">
+
+    <LinearLayout
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/headline_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="headline_text"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+        <TextView
+            android:id="@+id/section_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="section_text"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+        <TextView
+            android:id="@+id/contributor_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="contributor_text"
+            android:gravity="center_vertical"
+            android:textStyle="italic"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
